@@ -101,3 +101,5 @@ internal/protocol    TCP transport, framing, rooms, encryption
 ## License
 
 Licensed under the terms in [LICENSE](./LICENSE).
+
+Third-party dependency notices are documented in [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md).
