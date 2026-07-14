@@ -91,7 +91,6 @@ func Browse(ctx context.Context, timeout time.Duration) ([]DiscoveryRecord, erro
 		return nil, fmt.Errorf("mdns browse: %w", err)
 	}
 	<-browseCtx.Done()
-	close(entries)
 
 	seen := map[string]struct{}{}
 	var records []DiscoveryRecord
